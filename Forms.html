@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Forms</title>
+		<style type="text/css">
+			body{
+				background-image: url('nature.jpg');
+				background-size: cover;
+
+			}
+
+		</style>
+
+	   <link rel="stylesheet" type="text/css" href="Forms.css">
+	 
+</head>
+<body>
+
+<div class="h1">
+	<h1>* Employee details Form *</h1>
+</div>
+	<form>
+		<fieldset>
+			<legend>Employee details</legend>
+
+
+		<label>Employee Name</label>
+		<input type="text" placeholder="Enter Employee Name">		
+
+		<label>Employee Code</label>
+		<input type="text" placeholder="Enter Employee Code">		
+
+
+		<label>Employee Add</label>
+		<textarea placeholder="enter massage here"> </textarea>
+		
+		<label>Date Of Joining</label>
+		<input type="date" placeholder="Enter Date Of Joining">
+
+
+
+		<label>Select Employee Country</label>
+		<select>
+			<option disabled selected>Select Country</option>
+			<option>India</option>
+			<option>Pakistan</option>
+			<option>Japan</option>
+			<option>Nepal</option>
+			<option>Italy </option>
+		</select>
+
+		<label>Select Employee State</label>
+		<select>
+			<option disabled selected>Select State</option>
+			<optgroup label="India">
+			<option>Maharastra</option>
+			<option>Goa</option>
+			<option>Gujrat</option>
+			<option>Madhya Pradesh</option>
+			<option>Kerala</option>
+		</optgroup>
+
+			<optgroup label="USA">
+			<option>Alaska</option>
+			<option>Hawaii</option>
+			<option>Lowa</option>
+		</optgroup>
+
+		</select>
+
+
+		<label>Email</label>
+		<input type="Email" placeholder="Enter Employee Email">
+
+		<label>Password</label>
+		<input type="password" placeholder="Enter password">
+
+		<label>employee exprence letter</label>
+		<input type="file" placeholder="No file choose">
+
+		<br>
+		<center><input type="submit" name="submit">
+		<!-- <input type="Reset"> -->
+	
+
+		</fieldset>
+
+	</form>
+
+</body>
+</html>
